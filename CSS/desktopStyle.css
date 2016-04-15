@@ -1,2 +1,9 @@
 body {
-  background: blue; }
+  background: white; }
+
+.navbar-brand {
+  padding: 0; }
+
+#brand {
+  width: 12.5%;
+  float: right; }
