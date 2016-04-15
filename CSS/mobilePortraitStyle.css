@@ -10,11 +10,11 @@ ul {
   border-radius: 15px; }
 
 .navbar-brand {
-  padding: 0; }
+  padding: 0;
+  width: 50px; }
 
 #brand {
-  width: 12.5%;
-  float: right; }
+  height: 100%; }
 
 .leftNavItem {
   text-align: center; }
