@@ -1,0 +1,30 @@
+body{
+    background:white;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.mySidebar{
+    background:orange;
+    padding:0;
+    border-radius:15px;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+#brand{
+    width:12.5%;
+    float:right;   
+}
+
+.leftNavItem{
+    text-align:center;
+}
+
+.leftNavItem h3{
+    margin-top:0;
+}
