@@ -33,3 +33,15 @@ ul{
 .leftNavItem h3{
     margin-top:0;
 }
+
+.jumbotron{
+    padding:2%;
+    border-radius:15px;
+    background-image: url("../images/jumboFood.jpg");
+    background-size: cover;
+    color:orange;
+}
+
+#jumboContainer{
+    padding-left:0;
+}
