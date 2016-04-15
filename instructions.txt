@@ -1,0 +1,7 @@
+Install Node.js
+npm install -g gulp
+npm install gulp --save-dev
+npm install gulp-sass --save-dev
+
+Edit the npmrc file for npm global path.
+prefix=C:\Users\Patrick\Web Development\IRATDSWebpage\npm
