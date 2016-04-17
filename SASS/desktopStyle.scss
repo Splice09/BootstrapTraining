@@ -17,6 +17,18 @@ ul{
     border-radius:15px;
 }
 
+
+.leftNavHeader{
+    display:inline;
+    font-size:150%;
+    margin:auto;
+}
+
+.glyphContainer{
+    float:right;
+    margin-top:3%;
+}
+
 .navbar-brand{
     padding:0;
     width:50px;
@@ -34,6 +46,10 @@ ul{
     margin-top:0;
 }
 
+.up{
+    display:none;
+}
+
 .jumbotron{
     padding:2%;
     border-radius:15px;
@@ -44,4 +60,40 @@ ul{
 
 #jumboContainer{
     padding-left:0;
+}
+
+.colText{
+    text-align:center;
+    margin:2%;
+}
+
+.iconContainer{
+    width:100%;
+}
+
+.colIcon{
+    width:50%;
+    padding:5%;
+    margin:auto;
+    display:block;
+}
+
+.about{
+    text-align:center;
+}
+
+.staffContainer{
+    width:100%;
+    background:#e7e7e7;
+    margin-top:5%;
+    padding:2%;
+    border-radius:15px;
+}
+.staff{
+    width:100%;
+    margin-bottom:5%;
+}
+
+hr{
+    border-color:#A0A0A0;
 }

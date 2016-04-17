@@ -11,7 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='CSS/desktopStyle.css' />
     <link rel="stylesheet" type="text/css" media="only screen and (orientation:portrait)" href='CSS/mobilePortraitStyle.css'  />
-    <link rel="stylesheet" type="text/css" media="only screen and (orientation:landscape) and (max-width:1180px)" 
+    <link rel="stylesheet" type="text/css" media="only screen and (orientation:landscape) and (max-width:765px)" 
           href='CSS/mobileLandscapeStyle.css' />
     <script src="https://use.typekit.net/mco6ntv.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -55,8 +55,15 @@
       <div class = "bodyContainer">
           <div class = "row">
               <div class = "col-sm-4" id="sidebar" role="navigation">
+                  <div class = "sideHeader">
+                    <p class="leftNavHeader">Upcoming Events</p>
+                    <div class = "glyphContainer">
+                      <div class = "down"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></div>
+                      <div class = "up"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></div>
+                    </div>
+                  </div>
                   <ul class="mySidebar">
-                      <li class="leftNavItem"><h3>Upcoming Events</h3></li>
+                      
                       <li class="leftNavItem">Lorem Ipsum</li>
                       <li class="leftNavItem">Lorem Ipsum</li>
                       <li class="leftNavItem">Lorem Ipsum</li>              
@@ -71,8 +78,42 @@
                   </div>
               </div>
           </div>
+          <div class = "row">
+              <div class = "col-sm-4">
+                  <div class = "iconContainer">
+                      <img class = "colIcon" src="images/serverIcon.png">
+                  </div>
+                  <div class = "row">
+                      <div class="colText">
+                        Intelligentsia bitters gluten-free, narwhal wolf meditation fashion axe art party stumptown synth cray health goth letterpress ennui celiac.
+                      </div>
+                  </div>
+              </div>
+              <div class = "col-sm-4">
+                  <div class = "iconContainer">
+                      <img class = "colIcon" src="images/vegIcon.png">
+                  </div>
+                  <div class = "row">
+                      <div class="colText">
+                        Viral tote bag farm-to-table knausgaard, chia semiotics direct trade hashtag neutra hammock keytar readymade slow-carb pork belly brooklyn.
+                      </div>
+                  </div>
+              </div>
+              <div class = "col-sm-4">
+                  <div class = "iconContainer">
+                      <img class = "colIcon" src="images/soupIcon.png">
+                  </div>
+                  <div class = "row">
+                      <div class="colText">
+                        Polaroid helvetica bushwick waistcoat, hella literally pabst mlkshk 90's man braid everyday carry sustainable cold-pressed raw denim 3 wolf moon.
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
     </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/toggleScript.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
