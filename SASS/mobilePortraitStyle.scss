@@ -28,3 +28,94 @@ ul{
 .leftNavItem h3{
     margin-top:0;
 }
+
+
+.leftNavHeader{
+    display:inline;
+    font-size:150%;
+    margin:auto;
+}
+
+.glyphContainer{
+    float:right;
+    margin-top:3%;
+}
+
+.up{
+    display:none;
+}
+
+#jumboContainer{
+    padding:0;
+}
+
+.jumbotron{
+    width:90%;
+    margin:auto;
+    padding:2%;
+    border-radius:15px;
+    background-image:none;
+    background-size: cover;
+    color:orange;
+}
+
+.colText{
+    text-align:center;
+    margin:2%;
+}
+
+.iconContainer{
+    width:100%;
+}
+
+.colIcon{
+    width:50%;
+    padding:5%;
+    margin:auto;
+    display:block;
+}
+
+.about{
+    text-align:center;
+}
+
+.staffContainer{
+    width:100%;
+    background:#e7e7e7;
+    margin-top:5%;
+    padding:2%;
+    border-radius:15px;
+}
+.staff{
+    width:100%;
+    margin-bottom:5%;
+}
+
+hr{
+    border-color:#A0A0A0;
+}
+
+.sponsorContainer{
+    width:100%;
+    background:#e7e7e7;
+    padding:2%;
+    border-radius:15px;
+}
+
+.sponsorLogo{
+    width:20%;
+    float:left;
+}
+
+.sponsor{
+    margin-bottom:8%;
+}
+
+.sponsorHeader{
+    text-align:center;
+}
+
+.btn-lg{
+    padding:1%;
+    float:right;
+}
