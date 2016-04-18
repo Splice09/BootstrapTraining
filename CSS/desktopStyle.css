@@ -11,7 +11,9 @@ ul {
 .mySidebar {
   background: orange;
   padding: 0;
-  border-radius: 15px; }
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
 
 .leftNavHeader {
   display: inline;
@@ -77,3 +79,23 @@ ul {
 
 hr {
   border-color: #A0A0A0; }
+
+.sponsorContainer {
+  width: 100%;
+  background: #e7e7e7;
+  padding: 2%;
+  border-radius: 15px; }
+
+.sponsorLogo {
+  width: 20%;
+  float: left; }
+
+.sponsor {
+  margin-bottom: 8%; }
+
+.sponsorHeader {
+  text-align: center; }
+
+.btn-lg {
+  padding: 1%;
+  float: right; }
