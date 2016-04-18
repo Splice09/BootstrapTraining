@@ -56,7 +56,21 @@ ul{
     border-radius:15px;
     background-image: url("../images/jumboFood.jpg");
     background-size: cover;
-    color:orange;
+}
+
+.jumbotron h1{
+    background: rgba(255, 255, 255, 0.6);
+    color:green;
+    border-radius:15px;
+    padding:2%;
+    width:57%;
+}
+
+.jumbotron p {
+    background: rgba(255, 255, 255, 0.6);
+    color:black;
+    border-radius:15px;
+    padding:2%;
 }
 
 #jumboContainer{
