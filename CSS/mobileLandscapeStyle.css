@@ -34,3 +34,9 @@ ul {
   background-image: none;
   background-size: cover;
   color: orange; }
+
+.footerContainer {
+  margin-bottom: 5%; }
+
+.footerIcon {
+  width: 100%; }

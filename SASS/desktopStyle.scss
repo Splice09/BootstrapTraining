@@ -1,3 +1,9 @@
+$border-color: #A0A0A0;
+
+hr{
+    border-color:$border-color;
+}
+
 body{
     background:white;
 }
@@ -59,18 +65,20 @@ ul{
 }
 
 .jumbotron h1{
-    background: rgba(255, 255, 255, 0.6);
     color:green;
+}
+
+.jumboHeader{
+    background: rgba(255, 255, 255, 0.6);
     border-radius:15px;
     padding:2%;
     width:57%;
 }
 
-.jumbotron p {
-    background: rgba(255, 255, 255, 0.6);
+.jumboText {
+    @extend .jumboHeader;
     color:black;
-    border-radius:15px;
-    padding:2%;
+    width:100%;
 }
 
 #jumboContainer{
@@ -109,12 +117,9 @@ ul{
     margin-bottom:5%;
 }
 
-hr{
-    border-color:#A0A0A0;
-}
 
 .sponsorContainer{
-    width:100%;
+    width: 900px / 900px * 100%;
     background:#e7e7e7;
     padding:2%;
     border-radius:15px;
@@ -136,4 +141,12 @@ hr{
 .btn-lg{
     padding:1%;
     float:right;
+}
+
+.footerContaier{
+    margin-top:5%;
+}
+
+.footerIcon{
+    width:60%;
 }
